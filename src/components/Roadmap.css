@@ -1,0 +1,111 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* overflow-x: hidden; */
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .roadmap {
+    width: 100%; 
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .roadmap h1, .roadmap h2 {
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .roadmap ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .roadmap li {
+    background-color: #f7f7f7;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease; /* Add smooth transition */
+  }
+  
+  .roadmap li:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+  }
+  
+  .roadmap li button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease; /* Add smooth transition */
+  }
+  
+  .roadmap li:hover button {
+    background-color: #ff3333; /* Change button background color on hover */
+  }
+  
+  .roadmap li button:hover {
+    background-color: #cc0000; /* Darken button background color on button hover */
+  }
+  
+  .resources li, .additional-links li {
+    background-color: #f7f7f7;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resources li a, .additional-links li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .resources li a:hover, .additional-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .input-container button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-container button:hover {
+    background-color: #0056b3;
+  }
+  
